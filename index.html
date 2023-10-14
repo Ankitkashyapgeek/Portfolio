@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/aae174d95e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">    
+    <div class="container">
+        <nav>
+            <img src="image/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Project</a></li>
+                <li><a href="#portfolio">Portfolio</a></li> 
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i> 
+        </nav>
+        <div class="header-text">
+            <p>Full Stack Developer</p>
+            <h1>I am <span>Ankit Kashyap</span></h1>
+            <p>Looking to start the career as an entry-level software engineer with a reputed firm driven by
+                technology. Strong in design and integration with intuitive problem-solving skills. Passionate about
+                implementing and launching new projects. </p>
+        </div>
+    </div>
+</div>
+<!-------------about------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="image/me.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                    <p>Hello, I'm Ankit Kashyap, a pursuing MCA (Master of Computer Applications) graduate with a passion for technology and a strong foundation in software development. 
+                        I'm excited to embark on my journey in the world of IT, where I aspire to contribute my skills, creativity, 
+                        and dedication to solving complex problems and driving innovation.</p>
+
+                    <p>During my MCA program, I had the privilege of delving into a wide range of computer science disciplines,
+                        from programming and data structures to database management and web development. This educational journey has not only equipped me with a robust
+                        technical skill set but has also instilled in me a deep appreciation for the power of technology to transform industries and improve lives.</p>
+
+                    <p>Programming Languages : I'm proficient in languages such as Java, Python, C, and C++, and I enjoy tackling coding challenges.
+
+                        <p>Problem Solving : I thrive on solving intricate problems and have a logical and analytical mindset.</p>
+                        
+                        <p>Team Player : I'm a collaborative team player, always eager to learn from others and share my knowledge.</p>
+                        
+                        <p>Adaptability : I'm quick to adapt to new technologies and environments, which allows me to stay ahead in the ever-evolving tech landscape.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Certificates</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Certificates')">Experience</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Programming Language :</span><br>Core Java | Python | C++</li>
+                            <li><span>Web Designing/Framework :</span><br>Familiar with HTML, CSS, JavaScript, and front-end frameworks (e.g., Angular, Django)</li>
+                            <li><span>Database Management :</span><br>Experience with SQL and Database Design</li>
+                            <li><span>Software Development :</span><br>Knowledge of software development methodologies and best practices</li>
+                            <li><span>Interpersonal Skills :</span><br>Time Management | Flexible | Focused | Dedicated | Adaptable</li>
+                            <li><span>Teamwork :</span><br>Collaborative and effective in team projects</li>
+                            <li><span>Communication :</span><br> Strong verbal and written communication skills</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul> 
+                            <li><span>Certificate Name 1</span><br>Certificate Discription for 1.</li>
+                            <li><span>Certificate Name 2</span><br>Certificate Discription for 2.</li> 
+                            <li><span>Certificate Name 3</span><br>Certificate Discription for 3.</li>
+                            <li><span>Certificate Name 4</span> <br>Certificate Discription for 4.</li>
+                            
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Stating Year - End Year | Post Graduation</span><br>College Name</li>
+                            <li><span>Stating Year - End Year | Graduation</span><br>College Name</li>
+                            <li><span>Stating Year - End Year | Intermediate</span><br>College Name</li>
+                            <li><span>Stating Year - End Year | SSC</span><br>College Name</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Certificates">
+                        <ul> 
+                            <li><span>Experience Details of the User</span><br>Experience Details Discription</li>
+                            
+                        </ul>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>    
+
+<!-------------Services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Project</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Hotel Management System</h2>
+                <p>Welcome to Hotel Management System using Java! A Hotel Management System is an application used to manage various activities and operations of a hotel. It helps to automate many of the processes involved in running a hotel, such as reservations, check-ins and check-outs and room assignments. This system works on admin side where admin can check-ins and check-outs the guests based on room availability. Overall, a hotel management system can help to streamline and automate many of the day-to-day operations of a hotel, which can lead to improved efficiency, increased revenue, and better customer service. Main objective of the system is to make the hectic method of pen-paper simple and brings the management of hotel on the fingertips of admin.</p>
+                <a href="https://github.com/Ankitgeek">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i>
+                <h2>Car Racing Game</h2>
+                <p>The Car Racing Game using Pygame was created using Pygame module that compose of different platforms for developing games. The game is played in a simple windowed interface with sprites for he car and the background image. The player can control the car via keyboard binding (Left Arrow Key to move left, Right Arrow Key to move right). The goal of the game is to avoid all the cars moving towards you and gain score as you continue to run. The game will stop after you been hit by the enemy car. Try to earn a lot of score and achieve a highest score than your friends. The Car Racing Game is simple arcade style racing that have created in basic pygame programming techniques that can also help you understand the design principle.</p>
+                <a href="https://github.com/Ankitgeek">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-php"></i>
+                <h2>E-Commerce Application</h2>
+                <p>In particular, this Ecommerce System project in PHP focuses mainly on eCommerce aspects from online shopping to order management. To be more precise, the system helps customers to filter, shop online just like every other known eCommerce website. Also, the system contains all the product, order management features with it. In addition, the system allows managing customers, website settings, subscribers, and more. Evidently, this project contains an admin panel with a customer panel on the client side.</p>
+                <a href="https://github.com/Ankitgeek">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------Protfolio------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image//work1.jpg">
+                <div class="layer">
+                    <h1>Sample Work 1</h1>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="https://github.com/Ankitgeek"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image//work2.jpg">
+                <div class="layer">
+                    <h1>Sample Work 2</h1>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="https://github.com/Ankitgeek"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image//work3.jpg">
+                <div class="layer">
+                    <h1>Sample Work 3</h1>
+                    <p>Observers have noted a wide range of positive and negative impacts when
+                        it comes to the use of social media. Social media can help to improve an individual's sense of connectedness with real or online communities and can be an
+                        effective communication (or marketing) tool for corporations, entrepreneurs, non-profit
+                        organizations, advocacy groups, political parties, and governments. Observers have also
+                        seen that there has been a rise in social movements using social media as a tool for 
+                        communicating and organizing in times of political unrest.
+                    </p>
+                    <a href="https://github.com/Ankitgeek"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="www.google.com" class="btn">See More</a>
+    </div>
+</div>
+
+<!----------------contact us-------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>ankitkashyapgeek@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>7674828953</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ankit-kashyap-7b9093296/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Ankitgeek"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100011742933645&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://x.com/Ankitkashyap045?t=h3v_Pm9BYq0uguqaYZLyHQ&s=08"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/ankitkashyap04?igshid=OGQ5ZDc2ODk2ZA=="><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="image/Ankit Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <sapn id="msg"></sapn>
+            </div>
+        </div>
+    </div>
+    <div class="cpoyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Ankit Kashyap<i class="fa-solid fa-thumbs-up"></i> 2023 </p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link"); 
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzPRFpCRAs5QZ0H3wZU2xcAiTfMxoDZA2dfgZzWN8D6Kh-c4Xi3O_85LliozsA0QLoM/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Successfully!!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
